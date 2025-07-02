@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+venv/
+.venv/  # If you used .venv
+*.egg-info/
+.pytest_cache/
+
+# Google API credentials (VERY IMPORTANT!)
+client_secret_*.json # Or whatever you named it
+credentials.json
+token.json           # This file is created after the first OAuth handshake
+.oauth_cache/
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.spec # PyInstaller spec files
